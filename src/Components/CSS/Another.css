@@ -1,0 +1,46 @@
+.another-container {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  height: 400px;
+  border: 2px none black;
+  border-radius: 10px;
+}
+
+.another-content {
+  flex: 1;
+  margin-left: 75px;
+  margin-top: -108px;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.another-content button {
+  background-color: Orange;
+  color: white;
+  width: 100px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.another-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.another-image img {
+  max-height: 50%;
+  max-width: 50%;
+  margin-top: -90px;
+  margin-right: 45px;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.another button {
+  border-radius: 10px;
+}
